@@ -1,0 +1,98 @@
+>> git init
+>> git add README.md
+>> git commit -m "first commit"
+>> git branch -M main
+>> git remote add origin https://github.com/nnazis/laboratorywork1.git
+>> git push -u origin main
+Initialized empty Git repository in C:/Users/Admin/OneDrive/Desktop/visualcode/python/lab12025/.git/
+[main (root-commit) 1819925] first commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 README.md
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 244 bytes | 122.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nnazis/laboratorywork1.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git add .
+warning: adding embedded git repository: githowto/work
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> githowto/work
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached githowto/work
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git commit -m "Added folder"
+[main 68e39c4] Added folder
+ 17 files changed, 71 insertions(+)
+ create mode 100644 1.py
+ create mode 100644 10.py
+ create mode 100644 11.py
+ create mode 100644 12.py
+ create mode 100644 13.py
+ create mode 100644 14.py
+ create mode 100644 15.py
+ create mode 100644 16.py
+ create mode 100644 2.py
+ create mode 100644 3.py
+ create mode 100644 4.py
+ create mode 100644 5.py
+ create mode 100644 6.py
+ create mode 100644 7.py
+ create mode 100644 8.py
+ create mode 100644 9.py
+ create mode 160000 githowto/work
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git push
+Enumerating objects: 20, done.
+Counting objects: 100% (20/20), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (19/19), 1.73 KiB | 252.00 KiB/s, done.
+Total 19 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/nnazis/laboratorywork1.git
+   1819925..68e39c4  main -> main
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git add .
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git commit -m "Add GitHowTo practice files"
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> gti push
+gti : Имя "gti" не распознано как имя командлета, функции, файла сценария или 
+выполняемой программы. Проверьте правильность написания имени, а также наличие и     
+правильность пути, после чего повторите попытку.
+строка:1 знак:1
++ gti push
++ ~~~
+    + CategoryInfo          : ObjectNotFound: (gti:String) [], CommandNotFoundExcep  
+   tion
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git push
+To https://github.com/nnazis/laboratorywork1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nnazis/laboratorywork1.git'   
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025> git push
+To https://github.com/nnazis/laboratorywork1.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/nnazis/laboratorywork1.git'   
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS C:\Users\Admin\OneDrive\Desktop\visualcode\python\lab12025>
